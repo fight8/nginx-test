@@ -1,0 +1,15 @@
+{
+    "name": "Nginx",
+    "description": "Nginx",
+    "repository": "",
+    "logo": "",
+    "keywords": ["nginx"],
+    "stack": "container",
+	"env": {
+      "PORTS" : {
+        "description": "",
+                "value" : "",
+        "required" : False
+        }	
+    } 
+}
