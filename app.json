@@ -6,10 +6,10 @@
     "keywords": ["nginx"],
     "stack": "container",
 	"env": {
-      "PORTS" : {
+      "AAAA" : {
         "description": "",
                 "value" : "",
-        "required" : false
+        "required" : true
         }	
     } 
 }
