@@ -6,6 +6,7 @@ RUN apt install curl nano wget net-tools bash -y
 
 RUN rm -f /etc/nginx/conf.d/default.conf
 COPY default.conf /etc/nginx/conf.d/default.conf
+RUN chmod +x /etc/nginx/conf.d/default.conf
 
 #RUN mkdir /usr/share/nginx/html
 #COPY index.html /usr/share/nginx/html
